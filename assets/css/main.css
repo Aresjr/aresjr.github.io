@@ -248,15 +248,17 @@ header #menu-btn:hover{
 .home .image{
     text-align: center;
     -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  margin-top: 7rem;
+
 
 }
 
 .home .image img{
-    height: 40rem;
-    width: 40rem;
-    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70% ;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
     object-fit:cover;
 }
 
