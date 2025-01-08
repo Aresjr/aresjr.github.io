@@ -36,7 +36,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    text-transform: capitalize;
     border: none;
     outline: none;
     -webkit-transition: all 0.2s linear;
@@ -227,11 +226,11 @@ header #menu-btn:hover{
 .home{
     padding: 0rem 5%;
     background-color: var(--black);
-    min-height: 100vh;
+    min-height: 600px;
 }
 
 .home .box-container{
-    min-height: 100vh;
+    min-height: 600px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -507,7 +506,7 @@ header #menu-btn:hover{
 
 
 /*--------------------- 6- Qualification Area CSS (Start) ---------------------*/
-.qualification .box-container{
+.experiences .box-container{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
