@@ -1,29 +1,8 @@
-/* Table of Contents
-----------------------------------
-
-0- Global CSS
-1- Heading CSS
-2- Button CSS
-3- Header Area CSS
-4- Home Area CSS
-5- About Area CSS
-6- Qualification Area CSS 
-7- Services Area CSS
-8- Portfolio Area CSS
-9- Testimonials Area CSS
-10- Blog Area CSS
-11- Contact Area CSS
-12- Footer Area CSS
-13- Scroll-Top Area CSS
-
-*/
-
-
 /*--------------------- 0- Global CSS (Start) ---------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root{
-    --purple: #BC8CF2;
+    --purple: #4B70F5;
     --black: #000000;
     --white: #F7F5F2;
     --grey: #DFDFDE;
@@ -425,7 +404,7 @@ header #menu-btn:hover{
 
 .counting .box .count{
     font-size: 3.5rem;
-    color: var(--purple);
+    color: var(--white);
     padding-bottom: 0.5rem;
 }
 
@@ -501,7 +480,6 @@ header #menu-btn:hover{
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: 4rem;
 }
 
 .education, .experience{
@@ -540,6 +518,13 @@ header #menu-btn:hover{
     border-left: 2rem;
 }
 
+.experience-item ul {
+    color: var(--grey);
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-left: 3rem;
+}
+
 .experience-item span{
     background: #222;
     color: var(--white);
@@ -551,7 +536,13 @@ header #menu-btn:hover{
 .experience-item h3{
     font-size: 2.5rem;
     color: var(--white);
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
+}
+
+.experience-item h4{
+    font-size: 1.6rem;
+    color: var(--white);
+    padding: 0.75rem 0;
 }
 
 .experience-item p{
@@ -970,7 +961,6 @@ header #menu-btn:hover{
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: 2rem;
 }
 
 .contact-info{
@@ -1035,6 +1025,10 @@ header #menu-btn:hover{
     color: var(--grey);
     line-height: 1.6;
     padding-left: 1rem;
+}
+
+.contact-info .info-item .detail p a{
+    color: var(--grey);
 }
 
 .contact-form{
