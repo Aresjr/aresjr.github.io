@@ -226,11 +226,10 @@ header #menu-btn:hover{
 .home{
     padding: 0rem 5%;
     background-color: var(--black);
-    min-height: 600px;
 }
 
 .home .box-container{
-    min-height: 600px;
+    margin: 7rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -306,6 +305,12 @@ header #menu-btn:hover{
     color: var(--white);
     padding-bottom: 2rem;
     line-height: 1.5;
+}
+
+@media only screen and (max-width: 770px) {
+    #profile-image {
+        display: none;
+    }
 }
 /*--------------------- 4- Home Area CSS (End) ---------------------*/
 
@@ -477,30 +482,6 @@ header #menu-btn:hover{
     display:block;
     height:100%;
     background: var(--purple);
-}
-
- .skill-item.item1 .box:nth-child(1) .progress-bar span{
-    width:95%;
-}
-
- .skill-item.item1 .box:nth-child(2) .progress-bar span{
-    width:90%;
-}
-
- .skill-item.item1 .box:nth-child(3) .progress-bar span{
-    width:85%;
-}
-
-.skill-item.item2 .box:nth-child(1) .progress-bar span{
-    width:75%;
-}
-
- .skill-item.item2 .box:nth-child(2) .progress-bar span{
-    width:65%;
-}
-
- .skill-item.item2 .box:nth-child(3) .progress-bar span{
-    width:60%;
 }
 
 /*--------------------- 5- About Area CSS (End) ---------------------*/
