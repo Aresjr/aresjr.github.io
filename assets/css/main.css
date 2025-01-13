@@ -804,62 +804,23 @@ header #menu-btn:hover{
 
 
 
-/*--------------------- 9- Testimonials Area CSS (Start) ---------------------*/
-.testimonial-slider{
+/*--------------------- Company Images CSS (Start) ---------------------*/
+.companies-slider{
     position: relative;
     padding-bottom: 4rem;
     overflow: hidden;
 }
 
-.testi-item{
+.company-image{
     text-align: center;
-    border: 0.1rem solid var(--grey);
     border-radius: 0.5rem;
-    padding: 4rem 2rem;
 }
 
-.testi-item:hover{
-    border-color: var(--purple);
+.company-image img{
+    text-align: center;
+    border-radius: 0.5rem;
+    max-height: 5rem;
 }
-
-.testi-item img{
-    height: 10rem;
-    width: 10rem;
-    border-radius: 50%;
-    border: 0.5rem solid var(--white);
-}
-
-.testi-item .fa-quote-left{
-    display: block;
-    font-size: 3rem;
-    color: var(--white);
-    margin: 1rem 0;
-}
-
-.testi-item p{
-    color: var(--grey);
-    font-size: 1.5rem;
-    line-height: 1.5;
-}
-
-.testi-item .intro{
-    margin: 1rem 0;
-}
-
-.testi-item .intro h3{
-    font-size: 2rem;
-    color: var(--white);
-    padding-bottom: 0.5rem;
-}
-
-.testi-item .intro h5{
-    color: var(--purple);
-    font-size: 1.4rem;
-    font-weight: 400;
-}
-
-/*--------------------- 9- Testimonials Area CSS (End) ---------------------*/
-
 
 
 /*--------------------- 10- Blog Area CSS (Start) ---------------------*/
