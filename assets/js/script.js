@@ -73,7 +73,8 @@ $(document).ready(function(){
         breakpoints: {
             0: {slidesPerView: 1},
             768: {slidesPerView: 2},
-            1024: {slidesPerView: 3}
+            1024: {slidesPerView: 3},
+            1600: {slidesPerView: 4}
         },
     });
 
